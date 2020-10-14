@@ -14,18 +14,42 @@
             <table class="maintable" border="0">
                 <tr>
                     <th class="table_title">이름</th>
+                    <td><input type="text" size="30"></td>
                 </tr>
                 <tr>
                     <th class="table_title">아이디</th>
+                    <td><input type="text" size="30" placeholder="영문 및 숫자"></td>
                 </tr>
                 <tr>
                     <th class="table_title">비밀번호</th>
+                    <td><input class="inputpass1" type="password" size="30" placeholder="영문, 숫자, 특수문자의 조합"></td>
+                        <th class="table_title">비밀번호 확인</th>
+                        <td><input type="password" size="30" placeholder="영문, 숫자, 특수문자의 조합"></td>
                 </tr>
                 <tr>
                     <th class="table_title">성별</th>
+                    <td  colspan="3">
+                        <input class="gender" type="radio" id="men" name="gender" value="m">
+                        <label class="genderlabel" for="men">남</label>
+                        <input class="gender" type="radio" id="women" name="gender" value="w">
+                        <label class="genderlabel" for="women">여</label>
+                    </td>
                 </tr>
                 <tr>
                     <th class="table_title">전화번호</th>
+                    <td colspan="3">
+                        <select>
+                            <option>선택</option>
+                            <option>02</option>
+                            <option>010</option>
+                            <option>011</option>
+                            <option>016</option>
+                            <option>070</option>
+                        </select>
+                        <input type="tel" size="10" maxlength="4">
+                        <label>-</label>
+                        <input type="tel" size="10" maxlength="4">
+                    </td>
                 </tr>
                 <tr>
                     <th class="table_title">이메일</th>
