@@ -22,3 +22,38 @@
     padding-right: 5px;
 
 }
+
+.gender {
+    margin-right: -3px;
+}
+
+.genderlabel {
+    margin-right: 30px;
+}
+
+.grade {
+    margin-right: -3px;
+}
+
+.gradelabel {
+    margin-right: 30px;
+}
+
+.interest {
+    margin-right: -3px;
+}
+
+.interestlabel {
+    margin-right: 25px;
+}
+
+textarea {
+    resize: none;
+    border: 0px;
+    width: 100%;
+    
+}
+
+.btnCancel {
+    margin-right: 10px;
+}
