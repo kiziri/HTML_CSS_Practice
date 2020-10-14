@@ -53,18 +53,61 @@
                 </tr>
                 <tr>
                     <th class="table_title">이메일</th>
+                    <datalist id="domain">
+                        <option>nave.com</option>
+                        <option>gmail.com</option>
+                        <option>daum.net</option>
+                        <option>kakao.com</option>
+                    </datalist>
+                    <td colspan="3">
+                        <input type="email">
+                        <label>@</label>
+                        <input type="email" list="domain" placeholder="직접 입력">
+                    </td>
                 </tr>
                 <tr>
                     <th class="table_title">학과</th>
+                    <td><input type="text" size="30" ></td>
                 </tr>
                 <tr>
                     <th class="table_title">학년</th>
+                    <td colspan="3">
+                        <input class="grade" id="1" type="radio" name="grade" value="1">
+                        <label class="gradelabel" for="1">1학년</label>
+                        <input class="grade" id="2" type="radio" name="grade" value="2">
+                        <label class="gradelabel" for="1">2학년</label>
+                        <input class="grade" id="3" type="radio" name="grade" value="3">
+                        <label class="gradelabel" for="1">3학년</label>
+                        <input class="grade" id="4" type="radio" name="grade" value="4">
+                        <label class="gradelabel" for="1">4학년</label>
+                        <input class="grade" id="5" type="radio" name="grade" value="5">
+                        <label for="1">5학년</label>
+                    </td>
                 </tr>
                 <tr>
                     <th class="table_title">관심 분야</th>
+                    <td colspan="3">
+                        <input class="interest" id="animal" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">동물</label>
+                        <input class="interest" id="movie" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">영화</label>
+                        <input class="interest" id="animation" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">애니메이션</label>
+                        <input class="interest" id="soccer" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">축구</label>
+                        <input class="interest" id="music" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">음악</label>
+                        <input class="interest" id="fashion" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">패션</label>
+                        <input class="interest" id="gover" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">정치</label>
+                        <input class="interest" id="etc" type="checkbox" name="habi">
+                        <label class="interestlabel" for="1">기타</label>
+                    </td>
                 </tr>
                 <tr>
                     <th class="table_title">자기 소개</th>
+                    <td colspan="3"><textarea rows="30" name="content" autofocus="autofocus" placeholder="간단한 자기 소개"></textarea></td>
                 </tr>
                 <tr>
 
